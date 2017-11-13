@@ -1,0 +1,19 @@
+### Cortech USB to parallel port install instructions (Mac OSX)
+- Download and install the [NIDAQmx driver](http://www.ni.com/download/ni-daqmx-base-15.0/5648/en/))
+- If the port need to be tested, use the National Instruments Measurement & Automation application (PC only)
+
+### MATLAB script
+	s = daq.createSession('ni') 
+	% Initialize the session­ based interface to the NI­DAQ device. This is the only method supported on 64­bit Windows as of R2015
+	
+	ch = addDigitalChannel(s,'Dev1', 'Port1/Line0:7', 'OutputOnly');
+	% Setup an 8­bit range as a channel to which events can be written
+	
+	outputSingleScan(s, dec2binvec(64,8)) 
+	% Immediately preceding or following a stimulus, set a non­zero value on the 8 bit range from bit 0 through 7. This sets the length of the produced vector to 8, which is required. Here, the value 64 can be any integer from 1 to 255.
+	
+	outputSingleScan(s, [0 0 0 0 0 0 0 0]) 
+	% Reset port to zero. This should be done within (1000/<EEG sampling rate>)+2 milliseconds to ensure the port is ready for the next event (code should not be too long), and to ensure that codes are not missed (code should not be so short that the start and finish may both fall between EEG samples
+	
+	Clear all
+	Close all
