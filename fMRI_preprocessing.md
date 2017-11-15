@@ -1,5 +1,5 @@
 # fMRI preprocessing
-This is a tutorial giving an overview of an fMRI preprocessing pipeline developed by GG and members of the O’Doherty lab. It is based on Nipype workflow, and uses an ICA-based approach for data cleaning.  
+This is a tutorial giving an overview of an fMRI preprocessing pipeline developed by GG and members of the O’Doherty lab. It is based on Nipype workflow, and uses an ICA-based approach for data cleaning. The script is available [here](https://github.com/giogen/fMRI-preprocessing-pipeline).
   
 ## Dependencies
 The pipeline is a shell script which means that it can be run remotely with minimised dependencies. The pipeline relies, however, on installs of:
