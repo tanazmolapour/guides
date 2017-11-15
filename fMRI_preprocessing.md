@@ -64,4 +64,4 @@ Finally, a gaussian kernel is applied to smooth the data.
 
 This is carried out by the final module of the script, `07.Apply_Spatial_Smoothing.sh`.
 
-/images/preprocessing_tutorial.jpg
+![](https://github.com/mobbslab/guides/blob/master/images/preprocessing_tutorial.jpg)
