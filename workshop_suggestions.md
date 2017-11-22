@@ -1,6 +1,7 @@
 # Mobbs lab workshops and tutorials
 ## Data visualisation
 - Plotting (ggplot and plotly)
+- Collaborative writing with Overleaf and LaTeX
 
 ## Protocols
 - Nipype for fMRI processing
@@ -18,3 +19,4 @@
 | Git and GitHub (also markdown + pandoc) | Bowen | 20 Nov |
 | Plotting (ggplot and plotly) |  |  |
 | Bayesian modeling in R |  |  |
+| Overleaf and LaTeX |  |  |
