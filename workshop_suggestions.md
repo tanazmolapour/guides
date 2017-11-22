@@ -5,6 +5,7 @@
 
 ## Protocols
 - Nipype for fMRI processing
+- Physiological measures (HR, GSR, eyetracking, etc)
 
 ## Software
 - Git and GitHub (also markdown + pandoc)
