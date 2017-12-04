@@ -18,6 +18,7 @@
 | - | - | - |
 | Nipype for fMRI processing | Giovanni | 14 Nov |
 | Git and GitHub (also markdown + pandoc) | Bowen | 20 Nov |
+| Overleaf and LaTeX | Bowen | 4 Dec |
 | Plotting (ggplot and plotly) |  |  |
 | Bayesian modeling in R |  |  |
-| Overleaf and LaTeX |  |  |
+
